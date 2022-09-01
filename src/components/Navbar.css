@@ -1,0 +1,127 @@
+.navbar{
+    background-color: gray;
+    height: 100px;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    padding-right: 4rem;
+}
+
+.bar-button:hover{
+    cursor: pointer;
+}
+
+.bar-button{
+    font-size: large;
+}
+
+.nav-menu{
+    background-color: #1071FF;
+    width: 22rem;
+    height: 100vh;
+    display: flex;
+    justify-content: start;
+    position: fixed;
+    top: 0;
+    right: -100%;
+    transition: 300ms;
+    
+}
+
+.nav-menu.active{
+    right: 0;
+    transition: 300ms;
+}
+
+
+
+.menu-item-list{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    padding-left:1rem;
+    list-style: none;
+    height: 3rem;
+}
+
+.menu-item-list a {
+    text-decoration: none;
+    color: #f5f5f5;
+    font-size: 18px;
+    width: 95%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    padding: 0 16px;
+    border-radius: 4px;
+  }
+  
+  .menu-item-list a:hover {
+    cursor: pointer;
+    background-color: #1a83ff;
+  }
+  
+  .nav-menu-items {
+    padding: 0;
+    width: 100%;
+  }
+  
+  .navmenu-toggle {
+    color: white;
+    font-size: 1.5rem;
+    width: 80%;
+    height: 80px;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+  }
+
+  .navmenu-toggle :hover{
+    cursor: pointer;
+  }
+
+  .menu-close-button{
+    color: white;
+    font-size: 1.5rem;
+    background-color: #1071FF;
+    border-radius: 50%;
+    border-style: none;
+    aspect-ratio: 1;
+    box-shadow: 4px 4px 24px rgba(0, 0, 0, 0.15);
+
+  }
+  .menu-close-position{
+    display: flex;
+    align-items: center;
+  }
+
+  .menu-socials-button{
+    color: #1071FF;
+    font-size: 1.5rem;
+    background-color: #BCD7FF;
+    border-radius: 50%;
+    border-style: none;
+    aspect-ratio: 1;
+  }
+
+  .menu-socials-button:hover{
+    cursor: pointer;
+  }
+
+  .menu-socials-button li{
+    padding: 0px;
+  }
+
+  .menu-socials-position{
+    display: flex;
+    align-items: center;
+  }
+
+.socials-div{
+    margin-left: 1.5rem;
+}
+
+.socials-list{
+    margin: .5rem;
+}
+  
